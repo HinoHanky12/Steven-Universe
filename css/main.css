@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+	padding: 0;
+
+
+}
+.container
+{
+	width: 100%;
+	height:100%;
+
+	background-color: antiquewhite;
+	
+	
+}
+.banner
+{
+	width: 100%;
+	height: 90px;
+	background-color: greenyellow;
+	position: fixed;
+}
+.logo
+{
+	width: 20%;
+	height: 90px;
+	background-color:#254B6F;
+	float: left;
+
+}
+.menu
+{
+	width: 80%;
+	height: 90px;
+	background-color:#254B6F ;
+	float: right;
+}
+.menu ul
+{
+	list-style: none;
+}
+
+.menu ul li
+{
+	float: left;
+	padding: 20px 70px 10px 70px;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: relative;
+}
+
+.menu ul li ul
+{
+position: absolute;
+	top:74px;
+	left: 0px;
+	visibility: hidden;
+}
+
+.menu ul li:hover ul
+{
+	visibility: visible;
+}
+
+.menu ul li a
+{
+	text-decoration: none;
+	color: aliceblue;
+}
+.menu ul li:hover a
+{
+	border-bottom: 5px solid #E47F81;
+	
+	
+}
+
+
+
+
+.background
+{
+	width: 100%;
+	height: 900px;
+	background:url("../images/wp5054621.png");
+	padding: 40px 300px 40px 300px;
+	box-sizing: border-box;
+	
+	
+}
+.steven
+{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	
+}
+.steven_a
+{
+	width: 25%;
+	height: 470px;
+	background-color: white;
+	float: left;
+	margin: 1%;
+	padding: 3%;
+	box-sizing: border-box;
+	
+}
+.pearl
+{
+	width: 100%;
+	height: 700px;
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+
+}
+.pearl_a
+{
+	width:45%;
+	height: 670px;
+	background-color: pink;
+	float: left;
+	margin: 1%;
+	padding: 3%;
+	box-sizing: border-box;
+}
+
+.pearl_a button
+{
+	width:150px;
+	height: 50px;
+	background-color: pink;
+    border:2px solid #FFFFFF;
+	border-radius: 100px;
+}
+.head
+{
+	width: 100%;
+	height: 130px;
+	background: url("../images/jjj.jpg");
+	
+}
+.heada
+{
+	width: 100%;
+	height: 110px;
+	background: url("../images/jjj.jpg");
+	padding: 50px 520px;
+		box-sizing: border-box;
+	
+}
+.garnet
+{
+	width: 100%;
+	height: 280px;
+	background:url("../images/vvvv.jpg");
+}
+
+.garnet input
+{
+	width: 250px;
+	height: 40px;
+	border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.garnet select
+{
+	width: 258px;
+	height: 42px;
+	border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.garnet textarea
+{
+	
+	border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.ga 
+{
+	width: 100%;
+	height: 190px;
+	background: url("../images/gh.jpg");
+}
+.garneta
+{
+	width: 100%;
+	height: 160px;
+	background: url("../images/gh.jpg");
+	padding: 50px 530px;
+	box-sizing: border-box;
+}
+.garneta button
+{
+	height: 60px;
+	width: 500px;
+	border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+	
+background-color: white;
+	
+}
+.ame
+{
+	width: 100%;
+	height: 550px;
+	background-color: dodgerblue;
+}
+.content
+{
+	width:40%;
+	height: 550px;
+	background-color:white;
+	float: left;
+	padding: 70px;
+	box-sizing: border-box
+}
+.video
+{
+	width: 60%;
+	height: 550px;
+	background-color:white;
+	float: right;
+	padding: 73px;
+	box-sizing: border-box;
+}
+
+.duoi
+{
+	width: 100%;
+	height: 60px;
+	padding: 50px;
+	box-sizing: border-box;
+	background-color:#113258;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.duoii
+{
+	width: 100%;
+	height: 160px;
+	background-color:#113258;
+	padding: 10px 40px;
+	box-sizing: border-box;
+	-moz-column-count: 4;
+-moz-column-gap: undefinedpx;
+-webkit-column-count: 4;
+-webkit-column-gap: undefinedpx;
+column-count: 4;
+column-gap: undefinedpx;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: head2;
+  src: url( "../font/crewniverse_font.ttf");
+}
+
+
+
+@font-face {
+  font-family: content;
+  src: url("../font/Mukta-Medium.ttf");
+}
